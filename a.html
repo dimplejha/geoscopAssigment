@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,156 +8,186 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-sky-200">
+
+<body class="bg-slate-200">
     <header>
-    <nav class="bg-gray-800 h-10 text-red-500">
-        <div class="justify-items-end">
-            <ul class="flex">
-                <li class="m-1">Home</li>
-                <li class="m-1">About Us</li>
-                <li class="m-1">Contact</li>
-                <li class="m-1">LogIn</li>
-            </ul>
-    </div>
-    </nav>
-    <div class="flex bg-amber-200 grid-cols-1 grid-cols-2 w-full h-full p-4">
-        <div class=" bg-blue-100 rounded-full">
-            <label for="gender">Gender</label>
-            
-            <select name="Girl" id="gender" class="mr-8 border-radius: 10px;">
-            
-              <option value="Girl" selected>Girl</option>
-              <option value="Boy">Boy</option>
-            
-            </select>
-         </div>
-         <div class=" bg-blue-100 rounded-full">
-            <label for="gender">Gender</label>
-            
-            <select name="Girl" id="gender" class="mr-8 border-radius: 10px;">
-            
-              <option value="Girl" selected>Girl</option>
-              <option value="Boy">Boy</option>
-            
-            </select>
-         </div>
+        <!----------------------------------------- navbar------------------------------------------- -->
+        <nav class="bg-gray-800 h-10 space-x-9 text-red-500 ">
+            <div class="justify-items-end  ml-4">
+                <ul class="flex space-x-9">
+                    <li class="m-1">Home</li>
+                    <li class="m-1">About Us</li>
+                    <li class="m-1">Contact</li>
+                    <li class="m-1">LogIn</li>
+                </ul>
+            </div>
+        </nav>
 
-    
+        <!-- ----------------------------------------options for users to select -------------------- -->
+        <div class="flex bg-amber-200 grid-cols-1 grid-cols-2 w-full h-full p-4 space-x-9">
+            <div class=" bg-blue-100 rounded-full p-2">
+                <label for="gender">Gender</label>
 
-<!-- <div> -->
-        <label for="gender">Gender</label>
-        
-        <select name="Girl" id="gender">
-          
-          <option value="Girl" selected>Girl</option>
-          <option value="Boy">Boy</option>
-         
-        </select>
+                <select name="Girl" id="gender" class="mr-8 border-radius: 10px;">
 
-    <!-- </div> -->
+                    <option value="Girl" selected>Girl</option>
+                    <option value="Boy">Boy</option>
 
-<!-- <div> -->
-        <label for="gender">Budget</label>
-        
-        <select name="Girl" id="gender">
-          
-          <option value="Girl" selected>3k-4k</option>
-          <option value="Boy"></option>
-          <option value="Boy">8000</option>
-          <option value="Boy"></option>
-          <option value="Boy">2BHK</option>
-          <option value="Boy">2BHK</option>
-          <option value="Boy">2BHK</option>
+                </select>
+            </div>
+            <div class=" bg-blue-100 rounded-full p-2">
+                <label for="gender">Room Type</label>
 
-         
-        </select>
+                <select name="Girl" id="gender" class="mr-8 border-radius: 10px;">
 
-    <!-- </div> -->
+                    <option value="Girl" selected>1Bhk</option>
+                    <option value="Girl" selected>2Bhk</option>
+                    <option value="Girl" selected>3Bhk</option>
+                    <option value="Girl" selected>4Bhk</option>
+                    
 
-<!-- <div> -->
-        <label for="gender">Gender</label>
-        
-        <select name="Girl" id="gender">
-          
-          <option value="Girl" selected>Girl</option>
-          <option value="Boy">Boy</option>
-         
-        </select>
-    <!-- </div> -->
-        
+                </select>
+            </div>
 
-        
-    </div>
-</div>
-</header>
 
-<main >
-    <div class="m-1 flex">
-        <div class="w-3/5">
-            <img src="img1.jpg" alt="" srcset="" >
+
+            <div class=" bg-blue-100 rounded-full p-2">
+                <label for="gender">Occupancy</label>
+
+                <select name="Girl" id="gender">
+
+                    <option value="Girl" selected>Professional</option>
+                    <option value="Boy">Students</option>
+
+                </select>
+
+            </div>
+
+            <div class=" bg-blue-100 rounded-full p-2">
+                <label for="gender">Budget</label>
+
+                <select name="Girl" id="gender">
+
+                    <option value="Girl" selected>3k-4k</option>
+                    <option value="Boy">4k-5k</option>
+                    <option value="Boy">5k-6k</option>
+                    <option value="Boy">6k-7k</option>
+                    <option value="Boy">7k-8k</option>
+                    <option value="Boy">8k-9k</option>
+                    <option value="Boy">above 10k</option>
+
+
+                </select>
+
+            </div>
+
+            <div class=" bg-blue-100 rounded-full p-2">
+                <label for="gender">Gender</label>
+
+                <select name="Girl" id="gender">
+
+                    <option value="Girl" selected>Girl</option>
+                    <option value="Boy">Boy</option>
+
+                </select>
+            </div>
+
+
+
         </div>
-        <div class="mt-10 text-lg ">
-            <h1 class="font-semibold m-1">1BHK</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum quaerat inventore!Lorem
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi 
         </div>
-    </div>
 
-    <div class="m-1 flex">
-        <div class="w-3/5">
-            <img src="img1.jpg" alt="" srcset="" >
-        </div>
-        <div class="mt-10 text-lg ">
-            <h1 class="font-semibold m-1">1BHK</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum quaerat inventore!Lorem
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi 
-        </div>
-    </div>
 
-    <div class="m-1 flex">
-        <div class="w-3/5">
-            <img src="img1.jpg" alt="" srcset="" >
-        </div>
-        <div class="mt-10 text-lg ">
-            <h1 class="font-semibold m-1">1BHK</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum quaerat inventore!Lorem
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi 
-        </div>
-    </div>
 
-    <div class="m-1 flex">
-        <div class="w-3/5">
-            <img src="img1.jpg" alt="" srcset="" >
-        </div>
-        <div class="mt-10 text-lg ">
-            <h1 class="font-semibold m-1">1BHK</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum quaerat inventore!Lorem
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi 
-        </div>
-    </div>
+    </header>
 
-    <div class="m-1 flex">
-        <div class="w-3/5">
-            <img src="img1.jpg" alt="" srcset="" >
-        </div>
-        <div class="mt-10 text-lg ">
-            <h1 class="font-semibold m-1">1BHK</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum quaerat inventore!Lorem
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi 
-        </div>
-    </div>
+    <main>
 
-    <div class="m-1 flex">
-        <div class="w-3/5">
-            <img src="img1.jpg" alt="" srcset="" >
+
+        <!-- -------------------------searching flat/pg-------------------------------------------- -->
+
+        <div class="w-full h-96 bg-slate-200">
+
         </div>
-        <div class="mt-10 text-lg ">
-            <h1 class="font-semibold m-1">1BHK</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum quaerat inventore!Lorem
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi 
+        <div class="m-1 flex">
+            <div class="w-3/5">
+                <img src="img1.jpg" alt="" srcset="">
+            </div>
+            <div class="mt-10 text-lg ">
+                <h1 class="font-semibold m-1">1BHK</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos
+                exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum
+                quaerat inventore!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi
+            </div>
         </div>
-    </div>
-</main>
-    
+
+        <div class="m-1 flex">
+            <div class="w-3/5">
+                <img src="img1.jpg" alt="" srcset="">
+            </div>
+            <div class="mt-10 text-lg ">
+                <h1 class="font-semibold m-1">1BHK</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos
+                exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum
+                quaerat inventore!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi
+            </div>
+        </div>
+
+        <div class="m-1 flex">
+            <div class="w-3/5">
+                <img src="img1.jpg" alt="" srcset="">
+            </div>
+            <div class="mt-10 text-lg ">
+                <h1 class="font-semibold m-1">1BHK</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos
+                exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum
+                quaerat inventore!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi
+            </div>
+        </div>
+
+        <div class="m-1 flex">
+            <div class="w-3/5">
+                <img src="img1.jpg" alt="" srcset="">
+            </div>
+            <div class="mt-10 text-lg ">
+                <h1 class="font-semibold m-1">1BHK</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos
+                exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum
+                quaerat inventore!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi
+            </div>
+        </div>
+
+        <div class="m-1 flex">
+            <div class="w-3/5">
+                <img src="img1.jpg" alt="" srcset="">
+            </div>
+            <div class="mt-10 text-lg ">
+                <h1 class="font-semibold m-1">1BHK</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos
+                exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum
+                quaerat inventore!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi
+            </div>
+        </div>
+
+        <div class="m-1 flex">
+            <div class="w-3/5">
+                <img src="img1.jpg" alt="" srcset="">
+            </div>
+            <div class="mt-10 text-lg ">
+                <h1 class="font-semibold m-1">1BHK</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum nam facilis incidunt dignissimos
+                exercitationem in. Obcaecati enim ea beatae vero fugit voluptatem. Non, natus reprehenderit odio illum
+                quaerat inventore!Lorem
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat facilis molestiae, sequi
+            </div>
+        </div>
+    </main>
+
 </body>
+
 </html>
